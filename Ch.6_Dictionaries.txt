@@ -1,0 +1,16 @@
+Dictionaries can store a limitless amount of data, they can  be called upon, and defined to anything you wish.
+
+Terms to know
+Dictionary- a collection of key-value pairs
+Key-Value Pairs- this is a key connected to a value 
+
+Dictionaries = {call_back : Variable/value, call_back: Variable} 
+ex. alien_0 = {'color':'green', 'points':5}
+
+It is possible to add more key-value pairs to a Dictionary by using brackets 
+ex. alien_0['y_position'] = 25
+
+To make an empty Dictionary, just add braces {}
+ex. dictionary = {}
+
+
