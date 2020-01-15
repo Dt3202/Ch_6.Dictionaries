@@ -13,4 +13,17 @@ ex. alien_0['y_position'] = 25
 To make an empty Dictionary, just add braces {}
 ex. dictionary = {}
 
+To Modify the values of your dictionary you plug  in the name the key and a new value 
+ex. alien_0['color'] = 'yellow'
+
+If you wish to remove key-value pairs you add a del and then tell it which one 
+ex. del alien_0['points']
+
+when using a dictionary for similar items you can add the brace then enter and indent followed by your key-value pair and a comma, end it with a brace 
+ex. 
+fav_language = {
+        'jen':'python',
+        'sarah':'ruby',
+        }
+
 
