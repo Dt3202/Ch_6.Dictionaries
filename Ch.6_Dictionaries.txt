@@ -26,4 +26,24 @@ fav_language = {
         'sarah':'ruby',
         }
 
+When looping through a dictionary, you can store the key and value as two seperate variable and then print those out 
+ex. for key, value in user_0.items():
+        print("\nKey: " + key) # \n is a newline
+        print("Value: " + value)
+        
+keys() is a great way to create a list of your keys
+ex. for name in favorite_languages.keys():
+        print(name.title())
+
+sorted() creates a list in alphabetical order 
+ex. for name in sorted(favorite_languages.keys()):
+
+values() works the same way as keys()
+
+if you wrap set() around a dictionary you get a non repetitive list, so if you had 12 sets of 'first' you would only get a list with one
+
+Nesting is where you make a dictionary filled with dictionaries
+
+using .range(#iteger) wil cause a loop to run a certain amount of times 
+
 
