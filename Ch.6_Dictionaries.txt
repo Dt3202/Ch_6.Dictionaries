@@ -42,7 +42,7 @@ values() works the same way as keys()
 
 if you wrap set() around a dictionary you get a non repetitive list, so if you had 12 sets of 'first' you would only get a list with one
 
-Nesting is where you make a dictionary filled with dictionaries
+Nesting is where you make a dictionary filled with lists or vice versa
 
 using .range(#iteger) wil cause a loop to run a certain amount of times 
 
